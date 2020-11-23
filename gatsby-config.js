@@ -8,6 +8,7 @@ module.exports = {
       heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
       maxWidth: 652,
     },
+    pathPrefix: "/MuskanCreativeLearning.github.io",
     social: [
       {
         name: `twitter`,
@@ -59,8 +60,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-      },
+      options: {},
     },
   ],
 };
